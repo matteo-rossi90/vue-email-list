@@ -20,9 +20,17 @@
     
     <div id="app">
 
-        <ul>
-            <li></li>
-        </ul>
+        <div id="container">
+
+            <div id="box-list">
+                <!-- lista delle mail -->
+                <ul>
+                    <li v-for="(mail, index) in mailList" :key="index">{{ mail }}</li>
+                </ul>
+
+            </div>
+
+        </div>
 
     </div>
 
