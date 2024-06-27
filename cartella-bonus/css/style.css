@@ -1,0 +1,27 @@
+/* regole generali */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: dodgerblue;
+}
+
+#container{
+    width: 40%;
+    margin: 30px auto;
+}
+
+#box-list{
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+ul li{
+    list-style-type: none;
+    padding: 8px 0;
+}
